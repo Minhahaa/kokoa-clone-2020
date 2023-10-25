@@ -1,0 +1,2 @@
+#Git에 불필요한 파일을 Commit하지 않게 미리 Setting
+.DS_Store
