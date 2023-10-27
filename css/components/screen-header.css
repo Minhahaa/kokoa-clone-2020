@@ -1,16 +1,30 @@
 .screen-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--horizontal-space);
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .screen-header__icons span {
-    margin-left: 25px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.screen-header__notification {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
