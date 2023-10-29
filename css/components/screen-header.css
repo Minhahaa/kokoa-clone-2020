@@ -17,6 +17,10 @@
   position: relative;
 }
 
+.screen-header__icons a {
+  color: #2e363e;
+}
+
 .screen-header__notification {
   background-color: tomato;
   width: 6px;
@@ -27,4 +31,17 @@
   position: absolute;
   left: 20px;
   bottom: 20px;
+}
+
+@keyframes rotateIcons {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateIcons 3s linear infinite;
 }
